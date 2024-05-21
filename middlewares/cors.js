@@ -1,8 +1,4 @@
-const allowedCors = [
-    'https://blackgate.nomoredomainswork.ru',
-    'http://localhost:3000',
-    'http://localhost:3001'
-]; 
+const allowedCors = ['https://blackgate.nomoredomainswork.ru/']; 
 
 function cors(req, res, next) {
     const { origin } = req.headers;
