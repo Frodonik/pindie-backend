@@ -1,6 +1,7 @@
 const allowedCors = [
     'https://blackgate.nomoredomainswork.ru',
     'http://localhost:3000',
+    '192.168.127.128',
     'http://localhost:3001'
 ]; 
 
